@@ -4,6 +4,48 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+      defer
+    ></script>
+    <script src="script.js" defer></script>
+    <style>
+      body {
+        margin: 0;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+      }
+      .header {
+        height: 15vh;
+        background-color: red;
+      }
+      .links {
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: white;
+      }
+      .content {
+        flex-grow: 1;
+        display: flex;
+        justify-content: space-between;
+      }
+      .sidebar {
+        background-color: green;
+        width: 15vw;
+      }
+      .button {
+        align-self: center;
+      }
+      .footer {
+        transform: translateY(100%);
+        background-color: blue;
+        height: 15vh;
+      }
+    </style>
   </head>
   <body>
     <div class="header">
